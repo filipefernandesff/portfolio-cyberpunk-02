@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Chakra Petch', sans-serif;
+  --font-body: 'Rajdhani', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: clip;
+    background: #07040f;
+    font-family: var(--font-body);
+  }
+
+  a {
+    color: #ff3ec8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #ffffff;
+  }
+
+  ::selection {
+    background: #ff3ec8;
+    color: #07040f;
+  }
+
+  #inicio,
+  #sobre,
+  #servicos,
+  #projetos,
+  #processo,
+  #tecnologias,
+  #depoimentos,
+  #contato {
+    scroll-margin-top: var(--header-h, 96px);
+  }
+}
+
+@keyframes status-dot-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 10px #3ce88a;
+  }
+  50% {
+    opacity: 0.7;
+    box-shadow: 0 0 18px 3px #3ce88a;
+  }
+}
+
+.status-dot {
+  animation: status-dot-pulse 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-dot {
+    animation: none;
+  }
+}

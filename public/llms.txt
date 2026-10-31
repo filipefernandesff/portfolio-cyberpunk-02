@@ -1,0 +1,14 @@
+# Seu Nome — Desenvolvedor criativo
+
+> Portfólio de Seu Nome, desenvolvedor criativo focado em interfaces web modernas, animações e experiências digitais de alta performance.
+
+## Seções
+
+- [Início](https://seudominio.com/#inicio): apresentação e visão geral.
+- [Sobre](https://seudominio.com/#sobre): trajetória e forma de trabalho.
+- [Serviços](https://seudominio.com/#servicos): serviços oferecidos.
+- [Processo](https://seudominio.com/#processo): etapas de trabalho em um projeto.
+- [Tecnologias](https://seudominio.com/#tecnologias): stack e ferramentas utilizadas.
+- [Projetos](https://seudominio.com/#projetos): trabalhos e cases desenvolvidos.
+- [Depoimentos](https://seudominio.com/#depoimentos): feedback de clientes.
+- [Contato](https://seudominio.com/#contato): formas de entrar em contato.

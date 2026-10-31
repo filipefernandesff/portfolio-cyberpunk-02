@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Política de Privacidade — Seu Nome</title>
+    <meta
+      name="description"
+      content="Política de Privacidade do portfólio de Seu Nome: quais dados são tratados, para quê, com quem são compartilhados e como exercer seus direitos (LGPD)."
+    />
+    <link rel="canonical" href="https://seudominio.com/politica-de-privacidade" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Política de Privacidade — Seu Nome" />
+    <meta property="og:url" content="https://seudominio.com/politica-de-privacidade" />
+    <meta name="theme-color" content="#07040f" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Rajdhani:wght@400;500;600;700&display=swap"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        overflow-x: clip;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        overflow-x: clip;
+        background: #07040f;
+        color: #e8e2f5;
+        font-family: 'Rajdhani', system-ui, sans-serif;
+        font-size: 17px;
+        line-height: 1.65;
+      }
+      a {
+        color: #ff3ec8;
+        text-decoration: none;
+        transition: color 0.2s;
+      }
+      a:hover {
+        color: #ffffff;
+      }
+      ::selection {
+        background: #ff3ec8;
+        color: #07040f;
+      }
+      .topo {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px 24px;
+        padding: 14px clamp(16px, 4vw, 40px);
+        border-bottom: 1px solid rgba(168, 85, 247, 0.22);
+        background: rgba(9, 5, 20, 0.88);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        color: #fff;
+        white-space: nowrap;
+      }
+      .logo span {
+        color: #ff3ec8;
+      }
+      .voltar {
+        display: inline-flex;
+        align-items: center;
+        min-height: 40px;
+        padding: 0 18px;
+        border: 1px solid rgba(168, 85, 247, 0.35);
+        border-radius: 999px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #fff;
+        transition: border-color 0.2s, color 0.2s;
+      }
+      .voltar:hover {
+        border-color: #ff3ec8;
+        color: #ff3ec8;
+      }
+      main {
+        position: relative;
+        padding: clamp(32px, 5vw, 64px) clamp(16px, 4vw, 40px) clamp(48px, 6vw, 80px);
+      }
+      .brilho {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        width: min(560px, 90%);
+        height: 280px;
+        pointer-events: none;
+        opacity: 0.6;
+        background: radial-gradient(closest-side, rgba(124, 42, 232, 0.35), rgba(7, 4, 15, 0));
+      }
+      .miolo {
+        position: relative;
+        max-width: 860px;
+        margin: 0 auto;
+      }
+      .eyebrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #ff3ec8;
+      }
+      h1 {
+        margin: 12px 0 0;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: clamp(32px, 6vw, 60px);
+        line-height: 1;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      h1 em {
+        font-style: normal;
+        color: #ff3ec8;
+      }
+      .meta {
+        margin: 14px 0 0;
+        font-size: 15px;
+        color: #7f719f;
+      }
+      .cartao {
+        margin-top: clamp(24px, 3vw, 36px);
+        padding: clamp(20px, 3.5vw, 40px);
+        border: 1px solid rgba(168, 85, 247, 0.28);
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(26, 14, 50, 0.9), rgba(12, 7, 25, 0.9));
+        counter-reset: secao;
+      }
+      .cartao > p:first-child {
+        margin-top: 0;
+      }
+      h2 {
+        counter-increment: secao;
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        margin: 2em 0 0.5em;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #fff;
+      }
+      h2::before {
+        content: counter(secao, decimal-leading-zero);
+        flex: none;
+        color: #ff3ec8;
+      }
+      p,
+      li {
+        color: #c9bfe3;
+      }
+      p {
+        margin: 0.6em 0;
+      }
+      ul {
+        margin: 0.6em 0;
+        padding-left: 1.3em;
+      }
+      li {
+        margin: 0.35em 0;
+      }
+      li::marker {
+        color: #ff3ec8;
+      }
+      strong {
+        color: #fff;
+        font-weight: 600;
+      }
+      .rodape {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px 24px;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 24px clamp(16px, 4vw, 40px) 40px;
+        border-top: 1px solid rgba(168, 85, 247, 0.2);
+        font-size: 13px;
+        color: #8d81ab;
+      }
+      .rodape nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 20px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+      .rodape nav a {
+        color: #8d81ab;
+      }
+      .rodape nav a:hover,
+      .rodape nav a[aria-current='page'] {
+        color: #ff3ec8;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="logo" href="/" aria-label="Seu Nome — página inicial">Seu <span>✦</span></a>
+      <a class="voltar" href="/">← Voltar ao site</a>
+    </header>
+
+    <main>
+      <div class="brilho" aria-hidden="true"></div>
+      <div class="miolo">
+        <div class="eyebrow"><span>◈</span> Legal</div>
+        <h1>Política de <em>Privacidade</em></h1>
+        <p class="meta">Última atualização: 8 de outubro de 2026</p>
+
+        <div class="cartao">
+          <p>
+            Esta política explica como o site <strong>seudominio.com</strong> (o “site”), portfólio de
+            <strong>Seu Nome</strong>, trata dados pessoais, em conformidade com a Lei Geral de Proteção de Dados
+            (Lei nº 13.709/2018 — LGPD).
+          </p>
+
+          <h2>Quem é o responsável</h2>
+          <p>
+            O responsável pelo tratamento dos dados (controlador) é Seu Nome, que pode ser contatado pelo e-mail
+            <a href="mailto:contato@seudominio.com">contato@seudominio.com</a>.
+          </p>
+
+          <h2>Quais dados são tratados</h2>
+          <ul>
+            <li>
+              <strong>Dados que você envia ao entrar em contato</strong> por e-mail ou WhatsApp: nome, e-mail, telefone e o
+              conteúdo da mensagem. O site não possui formulários próprios; o contato acontece nesses canais externos.
+            </li>
+            <li>
+              <strong>Dados de navegação e uso</strong>, coletados automaticamente por ferramenta de análise (Microsoft
+              Clarity): páginas visitadas, cliques, rolagem, tipo de dispositivo, navegador, sistema operacional, idioma e
+              localização aproximada. A ferramenta pode registrar a sessão para gerar mapas de calor e gravações de
+              interação, e pode usar cookies para identificar a visita.
+            </li>
+            <li>
+              <strong>Dados técnicos de acesso</strong> (como endereço IP e navegador) registrados pelos provedores que
+              entregam o site, como a Cloudflare.
+            </li>
+          </ul>
+          <p>O site não solicita dados sensíveis, não tem cadastro de usuários e não realiza cobranças.</p>
+
+          <h2>Para que usamos os dados</h2>
+          <ul>
+            <li>Responder mensagens, tirar dúvidas e elaborar propostas de trabalho que você solicitar.</li>
+            <li>Entender como o site é usado para corrigir problemas e melhorar a experiência e o desempenho.</li>
+            <li>Manter o site seguro, disponível e protegido contra abusos.</li>
+            <li>Cumprir obrigações legais, quando houver.</li>
+          </ul>
+
+          <h2>Bases legais</h2>
+          <p>
+            O tratamento se apoia, conforme o caso, na execução de procedimentos preliminares a um contrato solicitado por
+            você, no legítimo interesse de manter e aprimorar o site, no cumprimento de obrigação legal e, quando for o
+            caso, no seu consentimento, que pode ser revogado a qualquer momento.
+          </p>
+
+          <h2>Cookies e tecnologias semelhantes</h2>
+          <p>
+            O site não usa cookies próprios de publicidade. A ferramenta de análise pode gravar cookies e identificadores
+            no seu navegador para reconhecer visitas. Você pode bloquear ou apagar cookies nas configurações do navegador;
+            o site continua funcionando, mas a análise de uso pode ser afetada.
+          </p>
+
+          <h2>Compartilhamento com terceiros</h2>
+          <p>Os dados não são vendidos. Eles podem ser tratados por provedores necessários ao funcionamento do site:</p>
+          <ul>
+            <li><strong>Cloudflare</strong> — hospedagem do site (Cloudflare Pages) e armazenamento de imagens (R2).</li>
+            <li><strong>Microsoft Clarity</strong> — análise de uso e comportamento de navegação.</li>
+            <li>
+              <strong>Google Fonts</strong> — entrega das fontes do site; ao carregá-las, seu navegador se conecta aos
+              servidores do Google, que recebem seu endereço IP.
+            </li>
+            <li>
+              <strong>WhatsApp (Meta) e e-mail</strong> — canais de contato, que seguem as próprias políticas quando você
+              os utiliza.
+            </li>
+          </ul>
+          <p>Alguns desses provedores podem armazenar dados fora do Brasil, observadas as garantias previstas na LGPD.</p>
+
+          <h2>Links para outros sites</h2>
+          <p>
+            O site contém links para redes sociais, projetos e materiais de terceiros (como Instagram, LinkedIn, GitHub,
+            YouTube e sites de clientes). Cada um deles tem a própria política de privacidade, sobre a qual não tenho controle.
+          </p>
+
+          <h2>Por quanto tempo guardamos os dados</h2>
+          <p>
+            Mensagens de contato são mantidas pelo tempo necessário para atender ao seu pedido e para eventuais
+            obrigações legais. Os dados de análise seguem os prazos de retenção do respectivo provedor. Depois disso, são
+            eliminados ou anonimizados.
+          </p>
+
+          <h2>Seus direitos</h2>
+          <p>Nos termos do art. 18 da LGPD, você pode solicitar, a qualquer momento:</p>
+          <ul>
+            <li>confirmação da existência de tratamento e acesso aos seus dados;</li>
+            <li>correção de dados incompletos, inexatos ou desatualizados;</li>
+            <li>anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade;</li>
+            <li>portabilidade dos dados, quando aplicável;</li>
+            <li>informação sobre com quem os dados foram compartilhados;</li>
+            <li>eliminação dos dados tratados com base no consentimento e revogação do consentimento.</li>
+          </ul>
+          <p>
+            Para exercer qualquer direito, escreva para
+            <a href="mailto:contato@seudominio.com">contato@seudominio.com</a>. Você também pode apresentar reclamação à
+            Autoridade Nacional de Proteção de Dados (ANPD).
+          </p>
+
+          <h2>Segurança</h2>
+          <p>
+            Adoto medidas técnicas razoáveis para proteger os dados, como conexão segura (HTTPS) e uso de provedores
+            reconhecidos. Nenhum sistema é totalmente imune a riscos, por isso não é possível garantir segurança absoluta.
+          </p>
+
+          <h2>Crianças e adolescentes</h2>
+          <p>O site não é direcionado a menores de 18 anos e não coleta dados de crianças de forma intencional.</p>
+
+          <h2>Alterações desta política</h2>
+          <p>
+            Esta política pode ser atualizada a qualquer momento. A data da última atualização fica no topo desta página, e
+            a versão vigente é sempre a publicada aqui.
+          </p>
+
+          <h2>Contato</h2>
+          <p>
+            Dúvidas sobre esta política ou sobre seus dados:
+            <a href="mailto:contato@seudominio.com">contato@seudominio.com</a>. Veja também os
+            <a href="/termos-de-uso">Termos de Uso</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <div>© 2026 Seu Nome. Todos os direitos reservados.</div>
+      <nav aria-label="Páginas legais">
+        <a href="/">Início</a>
+        <a href="/politica-de-privacidade" aria-current="page">Privacidade</a>
+        <a href="/termos-de-uso">Termos de Uso</a>
+      </nav>
+    </footer>
+  </body>
+</html>

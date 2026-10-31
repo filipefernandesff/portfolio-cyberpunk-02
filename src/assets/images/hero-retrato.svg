@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="416" height="599" viewBox="0 0 416 599">
+  <!-- Placeholder do retrato: troque este arquivo pela sua foto (PNG/WebP com fundo transparente, ~416x599)
+       e ajuste o import em src/components/Hero.tsx. -->
+  <defs>
+    <linearGradient id="corpo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b1a7a"/>
+      <stop offset="1" stop-color="#14082e"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#ff3ec8"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 599V480C0 410 80 372 156 352V300H260V352C336 372 416 410 416 480V599Z" fill="url(#corpo)" stroke="url(#neon)" stroke-width="3"/>
+  <ellipse cx="208" cy="190" rx="84" ry="102" fill="url(#corpo)" stroke="url(#neon)" stroke-width="3"/>
+  <rect x="116" y="164" width="184" height="50" rx="25" fill="#0b0620" stroke="url(#neon)" stroke-width="4"/>
+  <circle cx="160" cy="189" r="9" fill="none" stroke="#22d3ee" stroke-width="2"/>
+  <path d="M190 189H262" stroke="#ff3ec8" stroke-width="3" stroke-linecap="round"/>
+</svg>
