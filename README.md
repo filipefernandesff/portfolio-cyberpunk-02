@@ -73,6 +73,12 @@ vite.config.ts        plugin de SEO por rota
 
 Crie o componente em `src/components/`, inclua-o na lista de `src/App.tsx` e adicione o link correspondente no menu de `src/components/Header.tsx`.
 
+## Licença
+
+O código é distribuído sob a licença [MIT](LICENSE): você pode usar, copiar, modificar e distribuir livremente, inclusive em projetos comerciais, mantendo o aviso de copyright.
+
+As ilustrações `hero-916.webp` e `hero-cidade-neon.webp` são imagens de exemplo; se for usá-las em um projeto comercial, confirme os direitos de uso, ou troque por imagens suas.
+
 ## Publicação
 
 Qualquer hospedagem de site estático serve (Cloudflare Pages, Netlify, Vercel, GitHub Pages...). Use `npm run build` como comando de build e `dist` como pasta de saída. Como o site usa caminhos como `/materiais` e `/termos-de-uso`, a hospedagem precisa servir `index.html` de cada pasta (o padrão na maioria delas).
