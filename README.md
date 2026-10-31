@@ -75,9 +75,7 @@ Crie o componente em `src/components/`, inclua-o na lista de `src/App.tsx` e adi
 
 ## Licença
 
-O código é distribuído sob a licença [MIT](LICENSE): você pode usar, copiar, modificar e distribuir livremente, inclusive em projetos comerciais, mantendo o aviso de copyright.
-
-As ilustrações `hero-916.webp` e `hero-cidade-neon.webp` são imagens de exemplo; se for usá-las em um projeto comercial, confirme os direitos de uso, ou troque por imagens suas.
+O projeto é distribuído sob a licença [MIT](LICENSE): você pode usar, copiar, modificar e distribuir livremente, inclusive em projetos comerciais, mantendo o aviso de copyright. Isso vale também para as ilustrações incluídas (`hero-916.webp` e `hero-cidade-neon.webp`, geradas com IA).
 
 ## Publicação
 
